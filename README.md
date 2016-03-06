@@ -12,6 +12,7 @@ Clients are required to provide login credentials upon successful connection to 
 
     username password
 
+followed by -128 in byte form.
 
 # Client to Server command formats
 get time: 	

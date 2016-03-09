@@ -26,7 +26,6 @@ public class ClientConnection implements Runnable {
     String message = "";
     private String USERNAME = null;
     private String PASSWORD = null;
-    //private static final String CONN_STRING = "jdbc:mysql://142.160.58.242:3306/projectdb";
     private static final String CONN_STRING = "jdbc:mysql://localhost:3306/projectdb";
     public Connection conn = null;
 

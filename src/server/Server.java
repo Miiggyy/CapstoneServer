@@ -1,20 +1,16 @@
 package server;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+
 
 public class Server extends abstractserver.AbstractServer{
-    private static String USERNAME = "server";
-    private static String PASSWORD = "Capstone2015Server";    
-    //private static final String CONN_STRING = "jdbc:mysql://142.160.58.242:3306/projectdb";
+    private static final String USERNAME = "server";
+    private static final String PASSWORD = "Capstone2015Server";    
     private static final String CONN_STRING = "jdbc:mysql://localhost:3306/projectdb";
     public Connection conn = null;
     

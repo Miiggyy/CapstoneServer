@@ -1,7 +1,7 @@
 # server 
 This is the server software for the University of Manitoba ECE Group 16 Capstone Project. This software was developed using Netbeans IDE 8.0.2. This server listens to port 5555 for client connections and assumes that there is a MySQL server on the same machine running on port 3306. 
 
-If the MySQL server is on a different machine, open the project on netbeans and uncomment line 29 in ClientConnection.java then change the value of CONN_STRING to the ip address of the MySQL server then comment out line 30. Do the same for lines 17 and 18 in Server.java. Then recompile using Netbeans.
+If the MySQL server is on a different machine, open the project on netbeans and uncomment line 29 in ClientConnection.java then change the value of CONN_STRING to the ip address of the MySQL server. Do the same for line 14 in Server.java. Then recompile using Netbeans.
 
 To run the server, either open a command terminal, navigate to the dist folder and run
 

@@ -587,6 +587,6 @@ public class ClientCommand {
     * @return generated customer id
     */
     private int nextId() {
-        return (int) (currentTime.accumulateAndGet(System.nanoTime(), (prev, next) -> next > prev ? next : prev + 1) % 2147483647);
+        return (int) (currentTime.accumulateAndGet(System.nanoTime(), (prev, next) -> next > prev ? next : prev + 1) % 2147483647 + 100000000);
     }
 }
